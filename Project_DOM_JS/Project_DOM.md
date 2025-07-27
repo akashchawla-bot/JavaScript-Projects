@@ -1,8 +1,12 @@
 # # Project related to DOM
 
-## ->Project Link
+## -> Project Link
 
 https://github.com/akashchawla-bot/JavaScript-Projects
+
+## -> For Preview
+
+https://stackblitz.com/edit/stackblitz-starters-vgwgrp78?file=Project01%2Fp1_index.html,index.html
 
 # Solution Code
 
@@ -75,5 +79,21 @@ form.addEventListener('submit', function(e) {
         }
 
 })
+
+```
+
+## Project 3
+
+```javaScript
+Java Script
+
+// const clock = document.getElementById('clock')
+const clock = document.querySelector('#clock')
+
+setInterval(function () {
+    let date = new Date();
+    // console.log(date.toLocaleTimeString());
+    clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 
 ```

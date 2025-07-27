@@ -40,3 +40,20 @@ Users can enter their height (in feet) and weight (in kilograms) to calculate th
 - [`p2_script.js`](BMI%20Calculator/p2_script.js): JavaScript logic for BMI calculation
 
 Try entering your height and weight, then click "Calculate" to see
+
+### Project 3: Digital Clock
+
+This project displays a live digital clock showing the current local time, built with HTML, CSS, and JavaScript.  
+The clock updates every second and features a modern, responsive design.
+
+**Features:**
+- Real-time digital clock display
+- Updates every second automatically
+- Responsive layout and styled navigation bar
+
+**Files:**
+- [`p3_index.html`](P3_Digital%20CLock/p3_index.html): Main HTML structure
+- [`p3_style.css`](P3_Digital%20CLock/p3_style.css): Styling for layout and clock
+- [`p3_script.js`](P3_Digital%20CLock/p3_script.js): JavaScript logic for live clock
+
+Open the page to see your local time update every
