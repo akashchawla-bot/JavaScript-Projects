@@ -18,7 +18,8 @@ form.addEventListener('submit', function(e) {
     }else if(weight === '' || weight <= 0 || isNaN(weight)){
         result.innerHTML = "plz give a valid weight"
     }else{
-        const BMI = (weight / Math.pow(height * 0.3048, 2)).toFixed(2);
+        const BMI = (weight / ((height / 100) ** 2)).toFixed(2);
+
         // Show result
         // result.innerHTML = `BMI: ${BMI}`
         if(BMI < 18.6){

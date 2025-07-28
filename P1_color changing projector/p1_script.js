@@ -1,4 +1,4 @@
-console.log("Akash Chawla");
+// console.log("Akash Chawla");
 
 
 const buttons = document.querySelectorAll('.button');
